@@ -1,0 +1,5 @@
+.sidebar {
+  width: 240px;
+  border-right: 1px solid #ddd;
+  transition: margin-left 0.3s ease, opacity 0.3s ease;
+}

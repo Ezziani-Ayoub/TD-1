@@ -1,0 +1,9 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;   /* optional but recommended */
+  height: 56px;
+  background-color: #1B8C3E;
+  color: white;
+  padding: 0 20px;       /* optional spacing inside */
+}

@@ -58,6 +58,7 @@ export default function Dashboard() {
   } 
   
   // PUT — renommer un projet 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   async function renameProject(project: Project) {
     const newName = prompt('Nouveau nom :', project.name);
     if (!newName || newName.trim() === '' || newName === project.name) return;
@@ -75,6 +76,7 @@ export default function Dashboard() {
   }
   
   // DELETE — supprimer un projet 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   async function deleteProject(id: string) {
     if (!confirm('Êtes-vous sûr ?')) return;
     setError(null);

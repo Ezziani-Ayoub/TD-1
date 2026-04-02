@@ -35,7 +35,8 @@ export default function Login() {
         dispatch({ type: 'LOGIN_FAILURE', payload: 'Email ou mot de passe incorrect' });
         return;
       }
-      const { password: _, ...user } = users[0]; // Supprime le mot de passe
+      const user = { ...users[0] };
+      delete user.password; // Supprime le mot de passe
       dispatch({ type: 'LOGIN_SUCCESS', payload: user });
     } catch {
       dispatch({ type: 'LOGIN_FAILURE', payload: 'Erreur serveur' });

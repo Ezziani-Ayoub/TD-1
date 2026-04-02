@@ -85,3 +85,39 @@ Q6:La différence est que POST crée un nouveau projet, tandis que PUT met à jo
 Q7 : Oui, lorsque json-server est arrêté la requête échoue et le message d’erreur s’affiche grâce au catch qui met à jour setError
 
 Q8 : Avec Axios une réponse HTTP comme 404 ou 500 déclenche automatiquement une erreur, donc elle est capturée dans le catch
+
+-----------------------------------------------------------------------------------------------------------------
+# TP 4
+Q1: Aucune ligne de CSS avec MUI, contrairement à avant où il fallait en écrire plusieurs
+Q2: Bootstrap est plus simple et plus lisible. MUI est un peu plus long
+Q3: Je préfère MUI (sx) parce que c’est plus pratique et rapide
+Q4: Je choisis MUI parce que c’est plus moderne et personnalisable
+Q5: Parce que ce n’est pas sécurisé, il faut un backend
+Q6: Pas sécurisé, pas scalable, pas adapté pour production
+Q7: Parce que Firebase fournit une API sécurisée directement
+Q8: Créer un backend, une vraie base de données, ajouter sécurité, puis déployer
+Q9: Risque de dépendance et application plus lourde
+Q10: Firebase, car il gère le temps réel facilement
+
+## Tableau comparatif
+
+
+| Critère                    | Material UI      | React-Bootstrap |
+|---------------------------|------------------|------------------|
+| Installation              | Plus longue      | Simple           |
+| Nombre de composants      | Beaucoup         | Moins            |
+| Lignes de CSS écrites     | 0                | Quelques         |
+| Système de style          | sx (JS)          | className (CSS)  |
+| Personnalisation couleurs | Très facile      | Moyenne          |
+| Responsive                | Bon              | Bon              |
+| Lisibilité du code        | Moyenne          | Bonne            |
+| Documentation             | Très riche       | Bonne            |
+| Votre préférence          | MUI              |                  |
+
+React 
+   ↓ HTTP
+Axios
+   ↓
+json-server
+   ↓
+db.json

@@ -121,3 +121,25 @@ Axios
 json-server
    ↓
 db.json
+
+-------------------------------------------------------------------------------------------------------------------
+
+# TP 5
+
+Q1: Non, le script n'execute pas.
+
+Q2: Oui, ça marche² C'est dangereux.
+
+Q3: oui
+
+Q4: Parce que localStorage c'est pas sur contre XSS.
+
+Q5: Immer gere l'immutabilite, c'est plus simple que avant.
+
+Q6: Tous sauf MainContent qui devrait pas.
+
+Q7: React.memo compare les props, skip le re-render si rien change.
+
+Q8: useCallback pour une fonction, useMemo pour une valeur.
+
+Q10: Beaucoup moins de re renders inutiles.
